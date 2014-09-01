@@ -3,7 +3,6 @@ def character_init():
         if player_race in ('d','e','h'):
             races = {'d':'Dwarf', 'e':'Elf', 'h':'Human'}
             print("So you want to play a %s? A fine choice, indeed!") % races[player_race]
-            #goToNextPartOfGame()
         else:
             print("Invalid input. Restarting.")
             character_init()
@@ -13,6 +12,7 @@ def stat_init():
 	if player_stats in ('k','m','t'):
 	    init_stats = {'k':'Knight', 'm':'Mage', 't':'Thief'}
 	    print("There are plenty of opportunities for a %s in the land of etoris!") % init_stats[player_stats]
+	    #continue_game_function()
 	else:
 	    print("Please select either the (K)night, (M)age, or (T)hief stat templates")
 	    stat_init()
