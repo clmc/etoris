@@ -1,4 +1,7 @@
 ## prng module, for all random needs
+import random
+import os
+
 # seed the RNG with /dev/urandom
 def rngSeed():
     random.seed(os.urandom(256))
