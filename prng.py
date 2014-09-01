@@ -4,7 +4,7 @@ import os
 
 # seed the RNG with /dev/urandom
 def rngSeed():
-    random.seed(os.urandom(25))
+    random.seed(os.urandom(256))
     os_rand = random.getrandbits(1024)
     random.seed(os_rand)
 
