@@ -8,7 +8,7 @@ def rngSeed():
     os_rand = random.getrandbits(1024)
     random.seed(os_rand)
 
-# print 100 randon numbers
+# print 100 random numbers
 def randomNum():
     loopCount = 0
     while loopCount < 100:
