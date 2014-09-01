@@ -1,4 +1,4 @@
 etoris
 ======
 
-python RPG
+A simple python RPG
