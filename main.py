@@ -1,6 +1,6 @@
 import random
 import os
-from prng import rngSeed, randomNum
+from prng import rngInitSeed, randomNum, statRoll
 from charinit import character_init, stat_init
     
 character_init()
